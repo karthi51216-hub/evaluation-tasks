@@ -3,7 +3,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000/api/",
+  baseURL: "https://your-backend-url.onrender.com/api/",
 });
 
 API.interceptors.request.use((req) => {
